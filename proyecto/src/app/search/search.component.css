@@ -1,0 +1,8 @@
+*{
+    background-color: rgb(54, 54, 54);
+   }
+
+div{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}

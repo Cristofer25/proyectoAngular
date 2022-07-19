@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit ,Input} from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ServicioService } from '../servicio.service';
 
@@ -10,6 +10,7 @@ import { ServicioService } from '../servicio.service';
 export class SearchComponent implements OnInit {
 valorLink:string=""
 infoBuscada:any=""
+
 
   constructor(private route:ActivatedRoute, private servicio:ServicioService) { 
     this.route.params.subscribe((data:any)=>{

@@ -8,7 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { TarjetasComponent } from './tarjetas/tarjetas.component';
 import { NavComponent } from './nav/nav.component';
 import { HttpClientModule } from '@angular/common/http';
-import { SearchComponent } from './search/search.component'
+import { SearchComponent } from './search/search.component';
+import { DetallesComponent } from './detalles/detalles.component'
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { SearchComponent } from './search/search.component'
     HomeComponent,
     TarjetasComponent,
     NavComponent,
-    SearchComponent
+    SearchComponent,
+    DetallesComponent
   ],
   imports: [
     BrowserModule,
